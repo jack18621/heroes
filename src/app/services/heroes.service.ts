@@ -35,7 +35,8 @@ export class HeroesService {
   }
 
   borrarHeroe(id:string){
-    return this.http.delete(`${this.url}/Heroes/${id}.json`)
+    return this.http.delete
+    (`${this.url}/Heroes/${id}.json`)
 
   }
 
